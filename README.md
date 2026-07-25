@@ -1,9 +1,9 @@
 # CHHR-TOWSONDATACOMP
-**Project Overview & Scope**
+#**Project Overview & Scope**
 In a competitive, university-level data analytics competition open to undergraduate and graduate students, my project examining the County Health Rankings & Roadmaps (CHR&R) dataset earned third place overall. The project analyzed comprehensive health insurance, socioeconomic, and population health outcomes across more than 3,000 U.S. counties to determine the true root causes of regional health disparities.
 
-**Methodology & Technical Approach**
+#**Methodology & Technical Approach**
 Public health initiatives often assume that expanding access to medical facilities is the primary driver of community health. To test this hypothesis, I engineered a robust data pipeline in RStudio using tidyverse, dplyr, tidyr, and ggplot2 to clean and structure the national dataset. After conducting exploratory data analysis and advanced statistical correlation testing to isolate variables driving physical and mental distress, I built interactive heatmaps and scatter plots in Tableau and Power BI to dynamically translate these complex statistical relationships into actionable insights for the judging panel.
 
-**Key Findings & Real-World Impact**
+#**Key Findings & Real-World Impact**
 The analysis revealed a counterintuitive truth: a county’s health outcomes are most heavily predicted by its social infrastructure rather than its raw healthcare access. High school graduation rates and economic stability demonstrated a significantly stronger inverse correlation with physical and mental distress than the presence of specific medical facilities. By isolating at-risk areas such as Kenedy County, Texas, and McDowell County, West Virginia, and comparing them against high-performing aspirant counties, the data definitively showed that the regional health gap is driven primarily by systemic social factors like education and income, rather than healthcare infrastructure alone.
