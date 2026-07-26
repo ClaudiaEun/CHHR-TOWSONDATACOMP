@@ -1,8 +1,7 @@
 # ==============================================================================
 # Project: Statistical Analysis of the 2025/2026 County Health Rankings
-# Author: Claudia Eunice dela Paz
-# Purpose: Examining correlations between insurance coverage, healthcare access, 
-#          and socioeconomic factors against population health outcomes.
+# Claudia Eunice dela Paz
+# Examining correlations between insurance coverage, healthcare access, and socioeconomic factors against population health outcomes.
 # ==============================================================================
 
 # ---- SECTION 1: SETUP & DATA INGESTION ----
