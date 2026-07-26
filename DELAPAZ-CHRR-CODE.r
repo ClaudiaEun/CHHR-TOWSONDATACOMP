@@ -7,14 +7,10 @@
 
 # ---- SECTION 1: SETUP & DATA INGESTION ----
 
-# Install required packages if not already installed (uncomment if needed):
-# install.packages(c("tidyverse", "readxl", "rio"))
-
 library(tidyverse)
 library(readxl)
 
-# 1. Load the raw dataset
-# Ensure your R working directory is set to the folder containing the Excel file
+
 raw_data <- read_excel("2025 County Health Rankings Data.xlsx", sheet = "Select Measure Data")
 
 # ---- SECTION 2: DATA CLEANING & PREPROCESSING ----
@@ -24,7 +20,6 @@ clean_data <- raw_data %>%
   # Remove summary rows where County is missing
   filter(!is.na(County)) %>%
   # Convert strings like "Ratio:1" into numeric values by extracting leading digits
-  # This enables mathematical operations like correlation and regression
   mutate(
     `Primary Care Physicians Ratio` = as.numeric(str_extract(`Primary Care Physicians Ratio`, "^\\d+")),
     `Mental Health Provider Ratio`  = as.numeric(str_extract(`Mental Health Provider Ratio`, "^\\d+"))
